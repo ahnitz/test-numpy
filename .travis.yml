@@ -17,4 +17,6 @@ script:
 - pip install --upgrade setuptools pip
 - pip install "numpy==${NUMPY_VERSION}"
 - python t.py
+- cat /proc/cpuinfo
+- cat /etc/os-release
 
