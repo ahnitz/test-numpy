@@ -5,7 +5,13 @@ jobs:
     env: NUMPY_VERSION=1.19.0
   - python: "3.7"
     env: NUMPY_VERSION=1.19.0
+  - python: "3.8"
+    env: NUMPY_VERSION=1.19.0
+  - python: "3.6"
+    env: NUMPY_VERSION=1.18.5
   - python: "3.7"
+    env: NUMPY_VERSION=1.18.5
+  - python: "3.8"
     env: NUMPY_VERSION=1.18.5
 script:
 - pip install --upgrade setuptools pip
