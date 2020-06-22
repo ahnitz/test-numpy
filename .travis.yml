@@ -7,7 +7,7 @@ jobs:
     env: NUMPY_VERSION=1.19.0
   - python: "3.7"
     env: NUMPY_VERSION=1.18.5
-install:
+script:
 - pip install --upgrade setuptools pip
 - pip install "numpy==${NUMPY_VERSION}"
 - python t.py
