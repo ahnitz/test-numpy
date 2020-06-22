@@ -14,8 +14,6 @@ val = [(0, 0., 0, -31.666483, 200, 0., 0.,  1.      ,  -2.8499086-4.852268j  ,  
  
 dtype = [('template_id', '<i8'), ('bank_chisq', '<f4'), ('bank_chisq_dof', '<i8'), ('chisq', '<f4'), ('chisq_dof', '<i8'), ('cont_chisq', '<f4'), ('psd_var_val', '<f4'), ('sg_chisq', '<f4'), ('snr', '<c8'), ('time_index', '<i8')]
 
-         
-         
 vec = numpy.array(val, dtype=dtype)
 
 
